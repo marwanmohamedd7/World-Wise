@@ -1,0 +1,112 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-01-03T22:48:50.259Z",
+      "notes": "Masr",
+      "position": {
+        "lat": "30.041995745050393",
+        "lng": "31.235705453033145"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-01-03T23:57:35.063Z",
+      "notes": "City of light\n",
+      "position": {
+        "lat": "48.846465739190656",
+        "lng": "2.3483276367187504"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Clichy-sous-Bois",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-01-04T16:04:30.077Z",
+      "notes": "",
+      "position": {
+        "lat": "48.90946305370654",
+        "lng": "2.5475305469702563"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Farlete",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-01-04T16:06:17.519Z",
+      "notes": "",
+      "position": {
+        "lat": "41.70634019628733",
+        "lng": "-0.5388923619378906"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Lessines",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "2024-01-04T16:06:41.479Z",
+      "notes": "",
+      "position": {
+        "lat": "50.69618974020023",
+        "lng": "3.886132474180584"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Lleida",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-01-04T16:12:57.868Z",
+      "notes": "",
+      "position": {
+        "lat": "41.583267802843324",
+        "lng": "0.7123163451838367"
+      },
+      "id": 98443208
+    }
+  ]
+}
