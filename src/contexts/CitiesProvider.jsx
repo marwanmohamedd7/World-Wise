@@ -79,8 +79,27 @@ function CitiesProvider({ children }) {
         dispatch({ type: "REJECTED", payload: err.message });
       }
     },
-    [currentCity.id]
+    [currentCity?.id]
   );
+
+  // the commented component above is the original one, this no for attempting to fix a bug
+  // const getCity = useCallback(
+  //   async function getCity(id) {
+  //     // Ensure that currentCity has an id before comparing
+  //     if (currentCity && Number(id) === currentCity.id) return;
+  //     dispatch({ type: "LOADING" });
+  //     try {
+  //       const res = await fetch(`${BASE_URL}/cities/${id}`);
+  //       if (!res.ok) throw new Error("There was an error getting city...");
+  //       const data = await res.json();
+  //       dispatch({ type: "city/LOADED", payload: data });
+  //     } catch (err) {
+  //       dispatch({ type: "REJECTED", payload: err.message });
+  //     }
+  //   },
+  //   [currentCity]  // Add currentCity to the dependency array
+  // );
+
 
   async function createNewCity(newCity) {
     dispatch({ type: "LOADING" });
